@@ -1,0 +1,322 @@
+body {
+  font-family: "Lunasima", sans-serif;
+}
+
+a {
+  color: rgb(1, 22, 39);
+}
+
+h1,
+h2,
+h3,
+p {
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+main.container {
+  width: 50%;
+  margin: auto;
+}
+
+.header {
+  width: 50%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 30%;
+}
+
+.subheader {
+  background: linear-gradient(128deg, #f71735, #08aeea, #fc7b42, #1c92d2);
+  background-size: 400% 400%;
+}
+
+.subheader-title {
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.1;
+  text-align: center;
+  font-size: 38px;
+  width: 47%;
+  margin: auto;
+  padding: 35px 0;
+}
+
+.container-text {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.container-text p {
+  color: #5e5e5e;
+}
+
+.container-text span {
+  color: #5e5e5e;
+  font-size: 12px;
+  text-align: right;
+  display: block;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.title-box {
+  background: linear-gradient(45deg, #f71735, #08aeea, #fc7b42, #1c92d2);
+  background-size: 400% 400%;
+  padding: 8px;
+  color: white;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.story {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+
+.story p {
+  margin-left: 30px;
+}
+
+.story img,
+.comm-img {
+  width: 5%;
+}
+
+.story-person {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.quote {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.quote-text {
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.official-btn {
+  display: inline-block;
+  background: linear-gradient(183deg, #f71735, #08aeea);
+  background-size: 400% 400%;
+  color: rgb(253, 255, 252);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.second-story-img {
+  border-radius: 50%;
+}
+
+.official-btn a {
+  color: rgb(253, 255, 252);
+  text-decoration: none;
+}
+
+.comments {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comm-text {
+  width: 60%;
+  margin-left: 20px;
+}
+
+.comments-div {
+  margin: 40px auto;
+}
+
+hr {
+  margin: 0 auto;
+  width: 75%;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul li {
+  margin: 20px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .story p {
+    margin-left: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+  main.container {
+    width: 80%;
+    margin: auto;
+  }
+
+  .logo {
+    width: 60%;
+  }
+
+  .subheader-title {
+    width: 85%;
+  }
+
+  ul li {
+    margin: 0px 15px;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 824px) {
+  .comm-text {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    display: block;
+  }
+
+  .logo {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .subheader-title {
+    font-size: 22px;
+  }
+
+  .story img,
+  .comm-img {
+    width: 10%;
+  }
+
+  .comm-text {
+    width: 85%;
+  }
+
+  .story-person {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 425px) {
+  main.container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .title-box {
+    background: linear-gradient(76deg, #f71735, #08aeea, #fc7b42, #1c92d2);
+    background-size: 400% 400%;
+  }
+
+  .subheader-title {
+    font-size: 22px;
+  }
+
+  .header {
+    width: 90%;
+  }
+
+  ul li {
+    margin: 0px 6px;
+  }
+
+  .logo {
+    width: 80%;
+  }
+
+  .container-text span {
+    margin-right: 40px;
+  }
+
+  .story img,
+  .comm-img {
+    width: 14%;
+  }
+
+  .story-person {
+    width: 100%;
+  }
+
+  .story img,
+  .comm-img {
+    width: 14%;
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+  main.container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .container-text span {
+    margin-right: 60px;
+  }
+
+  .header {
+    display: block;
+  }
+
+  .logo {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .comm-text {
+    width: 80%;
+  }
+
+  footer ul li {
+    margin: 10px;
+  }
+
+}
